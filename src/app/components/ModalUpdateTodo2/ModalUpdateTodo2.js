@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import './page.css'
-import { updateTodo } from '../todoService2/todoService2';
+import { updateTodo } from '../toDoService2/todoService2'
 
 const predefinedTags = [
     'Learning',
