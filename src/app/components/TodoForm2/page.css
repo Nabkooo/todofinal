@@ -1,0 +1,230 @@
+.TodoWrapper {
+    background: #1A1A40;
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 5px;
+  }
+
+  .TodoForm {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .text {
+    text-align: center;
+    justify-content: center;
+      color: white;
+  }
+
+  .button1 {
+ 
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 auto; /* Center the button horizontally */
+    display: block; /* Ensure it behaves as a block-level element */
+    margin-top: 20px;
+  }
+
+
+  .button2 {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.arrow-icon {
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+}
+
+.arrow-icon.rotated {
+    transform: rotate(180deg);
+}
+
+.details {
+    margin-top: 10px;
+}
+
+.details-text {
+    padding: 10px;
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+}
+
+
+.p1 {
+    border-radius: 5px;
+
+}
+
+.tags {
+    padding: 0px;
+    margin-left: 340px;
+    border-right-width: 60px;
+}
+
+
+
+.todo-item {
+    background-color: #4285F4; /* Adjust the background color as needed */
+    padding: 10px;
+    color: white;
+    margin-bottom: 10px; /* Add some space between todo items */
+    border-radius: 5px;
+  }
+  
+  .todo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .priority {
+    margin-left: auto; /* Pushes the priority to the right */
+  }
+
+  .priority {
+    margin-left: 60px; /* Pushes the priority to the right */
+  }
+  
+  
+  .details {
+    margin-top: 10px; /* Add some space between the header and details */
+  }
+  
+ 
+  
+  button:hover {
+    background-color: #f1f1f1; /* Optional: Add a hover effect */
+  }
+  
+  .todo-container {
+    margin-top: 40px;
+  }
+
+  .filter-container {
+    margin: 10px 0;
+}
+
+.filter-button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.filter-button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.p2 {
+    font-size: 8;
+}
+
+.todo-item.close-to-midnight {
+    background-color: red; /* or any other styling */
+    color: white; /* optional, for better readability */
+    border: 2px solid darkred; /* optional, to emphasize the border */
+}
+
+/* page.css */
+.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.completion-icon {
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    background: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.completion-icon.completed {
+    color: green;
+}
+
+.completion-icon:not(.completed) {
+    color: grey;
+}
+
+/* Optional: Style for todo item container */
+.todo-item {
+    margin-bottom: 10px;
+}
+
+.todo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 16px;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.edit-button, .delete-button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.edit-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.delete-button {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+/* Optional: Add hover effects */
+.edit-button:hover {
+    background-color: #45a049;
+}
+
+.delete-button:hover {
+    background-color: #e57373;
+}
+
+/* Additional styles for better visuals */
+.todo-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.todo-header {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.details {
+    margin-top: 10px;
+}
+
+.close-to-midnight {
+    background-color: #ffeb3b; /* Yellow background for urgent tasks */
+}

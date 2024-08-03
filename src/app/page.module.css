@@ -228,3 +228,29 @@
     transform: rotate(0deg);
   }
 }
+
+
+/* Add this to your existing CSS */
+.link-container {
+  display: flex;
+  gap: 20px; /* Adjust the value to set the desired gap */
+}
+
+.back-button {
+  display: inline-block;
+  background-color: #333; /* Background color for the button */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding */
+  font-size: 16px; /* Font size */
+  text-align: center; /* Center text alignment */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  border: 1px solid transparent; /* Optional border to enhance appearance */
+  transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
+}
+
+.back-button:hover {
+  background-color: #555; /* Slightly lighter background on hover */
+  border-color: #666; /* Optional border color on hover */
+}
