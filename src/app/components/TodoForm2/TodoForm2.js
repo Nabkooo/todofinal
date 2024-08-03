@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import './page.css';
 import ModalTodo2 from '../ModalTodo2/ModalTodo2';
 import ModalUpdateTodo2 from '../ModalUpdateTodo2/ModalUpdateTodo2';
-import { fetchTodos, addTodo, deleteTodo, updateTodo } from '../todoService2/todoService2';
+import { fetchTodos, addTodo, deleteTodo, updateTodo } from '../toDoService2/todoService2';
 
 export default function TodoForm2() {
     const [showModal, setShowModal] = useState(false);
