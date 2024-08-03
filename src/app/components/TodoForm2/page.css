@@ -26,8 +26,8 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin: 0 auto; /* Center the button horizontally */
-    display: block; /* Ensure it behaves as a block-level element */
+    margin: 0 auto; 
+    display: block; 
     margin-top: 20px;
   }
 
@@ -72,10 +72,10 @@
 
 
 .todo-item {
-    background-color: #4285F4; /* Adjust the background color as needed */
+    background-color: #4285F4; 
     padding: 10px;
     color: white;
-    margin-bottom: 10px; /* Add some space between todo items */
+    margin-bottom: 10px; 
     border-radius: 5px;
   }
   
@@ -86,22 +86,22 @@
   }
   
   .priority {
-    margin-left: auto; /* Pushes the priority to the right */
+    margin-left: auto; 
   }
 
   .priority {
-    margin-left: 60px; /* Pushes the priority to the right */
+    margin-left: 60px; 
   }
   
   
   .details {
-    margin-top: 10px; /* Add some space between the header and details */
+    margin-top: 10px; 
   }
   
  
   
   button:hover {
-    background-color: #f1f1f1; /* Optional: Add a hover effect */
+    background-color: #f1f1f1; 
   }
   
   .todo-container {
@@ -132,9 +132,9 @@
 }
 
 .todo-item.close-to-midnight {
-    background-color: red; /* or any other styling */
-    color: white; /* optional, for better readability */
-    border: 2px solid darkred; /* optional, to emphasize the border */
+    background-color: red; 
+    color: white; 
+    border: 2px solid darkred; 
 }
 
 /* page.css */
@@ -160,7 +160,7 @@
     color: grey;
 }
 
-/* Optional: Style for todo item container */
+
 .todo-item {
     margin-bottom: 10px;
 }
@@ -191,16 +191,16 @@
 }
 
 .edit-button {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50; 
     color: white;
 }
 
 .delete-button {
-    background-color: #f44336; /* Red */
+    background-color: #f44336;
     color: white;
 }
 
-/* Optional: Add hover effects */
+
 .edit-button:hover {
     background-color: #45a049;
 }
@@ -209,7 +209,6 @@
     background-color: #e57373;
 }
 
-/* Additional styles for better visuals */
 .todo-item {
     border-bottom: 1px solid #ddd;
     padding: 10px;
@@ -226,5 +225,5 @@
 }
 
 .close-to-midnight {
-    background-color: #ffeb3b; /* Yellow background for urgent tasks */
+    background-color: #ffeb3b;
 }
