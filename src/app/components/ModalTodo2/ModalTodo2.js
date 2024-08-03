@@ -19,7 +19,6 @@ const priorityOptions = [
 ];
 
 export default function ModalTodo1({ closeModal, onAddTodo, onUpdateTodo, todo }) {
-    // Initialize state for new or existing todo
     const [newTodo, setNewTodo] = useState({
         title: '',
         description: '',
@@ -29,10 +28,9 @@ export default function ModalTodo1({ closeModal, onAddTodo, onUpdateTodo, todo }
         completed: false,
     });
 
-    const [buttonColor, setButtonColor] = useState(''); // State for button color
+    const [buttonColor, setButtonColor] = useState(''); 
 
     useEffect(() => {
-        // If there's an existing todo, populate the form with its data
         if (todo) {
             setNewTodo({
                 title: todo.title || '',
@@ -85,10 +83,8 @@ export default function ModalTodo1({ closeModal, onAddTodo, onUpdateTodo, todo }
 
     const handleSaveTodo = () => {
         if (todo) {
-            // Updating an existing todo
             onUpdateTodo && onUpdateTodo(todo.id, newTodo);
         } else {
-            // Adding a new todo
             onAddTodo && onAddTodo(newTodo);
         }
         setNewTodo({
@@ -98,7 +94,7 @@ export default function ModalTodo1({ closeModal, onAddTodo, onUpdateTodo, todo }
             due_date: '',
             tags: ''
         });
-        setButtonColor(''); // Reset button color
+        setButtonColor(''); 
         closeModal();
     };
 
