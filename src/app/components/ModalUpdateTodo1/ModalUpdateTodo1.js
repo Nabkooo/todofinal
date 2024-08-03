@@ -64,14 +64,11 @@ export default function ModalUpdateTodo1({ todo, closeModal, onUpdateTodo }) {
     const handleUpdateTodo = async () => {
         if (todo && onUpdateTodo) {
             try {
-                // Call the updateTodo function with the todo.id and updatedTodo
                 await updateTodo(todo.id, updatedTodo);
                 console.log('Update successful');
-                // Reload the page after updating
                 window.location.reload();
             } catch (error) {
                 console.error('Failed to update todo:', error);
-                // Handle error (e.g., show an error message)
             }
         }
     };
